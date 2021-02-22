@@ -74,8 +74,8 @@
   </build>
   <repositories>
     <repository>
-      <id>df-java-maven</id>
-      <url>http://tdc1tfsapp01:8080/tfs/DefaultCollection/_packaging/df-java-maven/maven/v1</url>
+      <id>test-maven</id>
+      <url>https://pkgs.dev.azure.com/ehteshamchoudhury/sandbox/_packaging/test-maven/maven/v1</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -86,8 +86,8 @@
   </repositories>
   <distributionManagement>
     <repository>
-      <id>df-java-maven</id>
-      <url>http://tdc1tfsapp01:8080/tfs/DefaultCollection/_packaging/df-java-maven/maven/v1</url>
+      <id>test-maven</id>
+      <url>https://pkgs.dev.azure.com/ehteshamchoudhury/sandbox/_packaging/test-maven/maven/v1</url>
     </repository>
   </distributionManagement>
 </project>
