@@ -23,7 +23,7 @@ steps:
       artifactsFeeds: 'df-java-maven'
   - task: Maven@3
     inputs:
-      mavenPomFile: 'nlpcore/pom.xml'
+      mavenPomFile: 'pom.xml'
       goals: 'package'
       publishJUnitResults: true
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
@@ -34,7 +34,7 @@ steps:
       sonarQubeRunAnalysis: false
   - task: Maven@3
     inputs:
-      mavenPomFile: 'nlpcore/pom.xml'
+      mavenPomFile: 'pom.xml'
       goals: 'deploy'
       options: '--debug'
       publishJUnitResults: true
